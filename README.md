@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project 4 - Twitter Redux app
 
-## Available Scripts
+**Twitter** is a basic twitter app to read and compose tweets from the [Twitter API](https://apps.twitter.com/).
 
-In the project directory, you can run:
+Time spent: **20** hours spent in total
 
-### `npm start`
+## User Stories
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The following **required** functionality is completed:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [x ] User can sign in using OAuth login flow.
+- [ x] User can view last 20 tweets from their home timeline.
+- [ x] The current signed in user will be persisted across restarts.
+- [ x] In the home timeline, user can view tweet with the user profile picture, username, tweet text, and timestamp.  In other words, design the custom cell with the proper Auto Layout settings.  You will also need to augment the model classes.
+- [ x] User can pull to refresh.
+- [ x] User can compose a new tweet by tapping on a compose button.
+- [ x] User can tap on a tweet to view it, with controls to retweet, favorite, and reply.
+- [ x] Hamburger menu
+- [ x] Dragging anywhere in the view should reveal the menu.
+- [ x] The menu should include links to your profile, the home timeline, and the mentions view.
+- [ x] The menu can look similar to the example or feel free to take liberty with the UI.
+- [ x] Profile page
+- [ x] Contains the user header view
+- [ x] Contains a section with the users basic stats: # tweets, # following, # followers
+- [ x] Home Timeline
+- [ x] Tapping on a user image should bring up that user's profile page
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following **optional** features are implemented:
 
-### `npm run build`
+- [ x] When composing, you should have a countdown in the upper right for the tweet limit.
+- [ ] After creating a new tweet, a user should be able to view it in the timeline immediately without refetching the timeline from the network.
+- [ x] Retweeting and favoriting should increment the retweet and favorite count.
+- [ x] User should be able to unretweet and unfavorite and should decrement the retweet and favorite count.
+- [ ] Replies should be prefixed with the username and the reply_id should be set when posting the tweet,
+- [ ] User can load more tweets once they reach the bottom of the feed using infinite loading similar to the actual Twitter client.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The following **additional** features are implemented:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [ ] List anything else that you can get done to improve the app functionality!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-### `npm run eject`
+1.
+2.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Video Walkthrough
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here's a walkthrough of implemented user stories:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="https://github.com/jagdeeparora86/Twitter/raw/master/twitter.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" style="max-width:100%;">
+<img src="https://github.com/jagdeeparora86/Twitter/raw/master/twitter2.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" style="max-width:100%;">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Describe any challenges encountered while building the app.
 
-### Code Splitting
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    Copyright [2016] [Jagdeep Singh]
 
-### Analyzing the Bundle Size
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+        http://www.apache.org/licenses/LICENSE-2.0
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
